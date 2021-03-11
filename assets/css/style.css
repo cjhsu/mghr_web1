@@ -702,6 +702,17 @@ section {
 }
 */
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -709,15 +720,16 @@ section {
   justify-content: center;
 }
 
-.img-fluid {
-  max-width: 100%;
+.carousel .carousel-item {
   height: auto;
 }
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+
+.carousel .carousel-item img {
+  min-height: 900px;
+  max-height: auto;
+  object-fit: cover;
 }
+
 
 
 
