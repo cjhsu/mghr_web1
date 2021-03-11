@@ -725,7 +725,7 @@ section {
 }
 
 .carousel .carousel-item img {
-  min-height: 900px;
+  min-height: auto;
   max-height: auto;
   object-fit: cover;
 }
