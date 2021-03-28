@@ -686,22 +686,14 @@ section {
 .img-fluid {
   max-width: 100%;
   height: auto;
-}
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .img-responsive {
   display: flex;
   max-width: 100%;
   height: auto;
+  max-height: 100%;  
 }
 
 .carousel-item.active,
