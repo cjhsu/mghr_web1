@@ -683,11 +683,6 @@ section {
 }
 
 /* */
-.img-fluid {
-  max-width: 100%;
-  height: fill-available;
-}
-
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -701,7 +696,7 @@ section {
 }
 
 .img-responsive {
-  display: flex;
+  display: block;
   max-width: 100%;
   height: fill-available;
   max-height: 100%;  
