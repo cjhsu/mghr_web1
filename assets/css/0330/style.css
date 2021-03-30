@@ -684,7 +684,7 @@ section {
 
 /* */
 .img-responsive {
-  display: block;
+  display: flex;
   max-width: 100%;
   height: fill-available;
 }
