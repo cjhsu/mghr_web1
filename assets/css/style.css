@@ -683,8 +683,12 @@ section {
 }
 
 /* */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 .img-responsive {
-  display: flex;
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -692,14 +696,12 @@ section {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  max-height: 100%;
 }
 
 .img-responsive {
-  display: block;
+  display: flex;
   max-width: 100%;
   height: auto;
-  max-height: 100%;  
 }
 
 .carousel-item.active,
@@ -710,19 +712,18 @@ section {
 }
 
 .carousel .carousel-item {
-  height: auto; 
+  height: auto;
 }
 
 .carousel .carousel-item img {
   min-height: auto;
   max-height: auto;
   object-fit: cover;
-  height: fill-available;   
 }
 
 .carousel-item .img-fluid {
   width:100%;
-  height: fill-available;  
+  height:100%;
 }
 
 
@@ -735,5 +736,4 @@ section {
   font-size: 50px;
   text-transform: uppercase;
 }
-
 
