@@ -686,19 +686,19 @@ section {
 .img-responsive {
   display: flex;
   max-width: 100%;
-  height: fill-available;
+  height: auto;
 }
 
 .img-fluid {
   max-width: 100%;
-  height: fill-available;
+  height: auto;
   max-height: 100%;
 }
 
 .img-responsive {
   display: block;
   max-width: 100%;
-  height: fill-available;
+  height: auto;
   max-height: 100%;  
 }
 
