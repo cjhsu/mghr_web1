@@ -737,3 +737,9 @@ section {
   text-transform: uppercase;
 }
 
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
